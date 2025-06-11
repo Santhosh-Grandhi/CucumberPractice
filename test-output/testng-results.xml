@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-11T21:47:15 IST" name="Default suite" finished-at="2025-06-11T21:47:16 IST" duration-ms="737">
+  <suite started-at="2025-06-11T21:57:52 IST" name="Default suite" finished-at="2025-06-11T21:57:52 IST" duration-ms="497">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testNGRunner.runnerFile@37ceb1df]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-06-11T21:47:15 IST" name="Default test" finished-at="2025-06-11T21:47:16 IST" duration-ms="737">
+    <test started-at="2025-06-11T21:57:52 IST" name="Default test" finished-at="2025-06-11T21:57:52 IST" duration-ms="497">
       <class name="testNGRunner.runnerFile">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testNGRunner.runnerFile@37ceb1df]" started-at="2025-06-11T21:47:15 IST" name="setUpClass" finished-at="2025-06-11T21:47:15 IST" duration-ms="466" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testNGRunner.runnerFile@37ceb1df]" started-at="2025-06-11T21:57:52 IST" name="setUpClass" finished-at="2025-06-11T21:57:52 IST" duration-ms="329" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@7241a47d]]>
+                <![CDATA[org.testng.TestRunner@79351f41]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testNGRunner.runnerFile@37ceb1df]" started-at="2025-06-11T21:47:15 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-11T21:47:16 IST" duration-ms="191" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testNGRunner.runnerFile@37ceb1df]" started-at="2025-06-11T21:57:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-11T21:57:52 IST" duration-ms="102" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,66 +34,10 @@
               </value>
             </param>
           </params>
-          <exception class="io.cucumber.testng.UndefinedStepException">
-            <message>
-              <![CDATA[The step 'I want to write a step with precondition' and 3 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("I want to write a step with precondition")
-public void i_want_to_write_a_step_with_precondition() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("I complete action")
-public void i_complete_action() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("I validate the outcomes")
-public void i_validate_the_outcomes() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("check more outcomes")
-public void check_more_outcomes() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'I want to write a step with precondition' and 3 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@Given("I want to write a step with precondition")
-public void i_want_to_write_a_step_with_precondition() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When("I complete action")
-public void i_complete_action() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("I validate the outcomes")
-public void i_validate_the_outcomes() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then("check more outcomes")
-public void check_more_outcomes() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-at ✽.I want to write a step with precondition(file:///C:/Users/Santhosh/eclipse-workspace/Cucumber/src/test/java/Features/firstProgram.feature:5)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testNGRunner.runnerFile@37ceb1df]" started-at="2025-06-11T21:47:16 IST" name="tearDownClass" finished-at="2025-06-11T21:47:16 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testNGRunner.runnerFile@37ceb1df]" started-at="2025-06-11T21:57:52 IST" name="tearDownClass" finished-at="2025-06-11T21:57:52 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
