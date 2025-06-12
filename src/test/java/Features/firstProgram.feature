@@ -15,5 +15,8 @@ Feature: My Feature File
   Scenario: Parameterization
     Given User launching web application
     When Using credentials "santhoshgrandhi9@gmail.com" and "123456789"
-    Then Login page is displayed
+    Then Landing page is displayed
     And Application is interactable
+    
+ 
+    

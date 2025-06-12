@@ -32,7 +32,7 @@ public class mainSteps {
 		public void using_credentials_and(String username, String password) {
 			System.out.println(username+" and "+password);
 		}
-		@Then("Login page is displayed")
+		@Then("Landing page is displayed")
 		public void login_page_is_displayed() {
 			System.out.println("Landing page is displayed");
 		}
