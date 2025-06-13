@@ -28,7 +28,12 @@ public class mainSteps {
 		public void user_launching_web_application() {
 			System.out.println("application is launched");
 		}
-		@When("Using credentials {string} and {string}")
+//		@When("Using credentials {string} and {string}")
+//		public void using_credentials_and(String username, String password) {
+//			System.out.println(username+" and "+password);
+//		}
+		
+		@When("^Using credentials (.+) and (.+)$")
 		public void using_credentials_and(String username, String password) {
 			System.out.println(username+" and "+password);
 		}
