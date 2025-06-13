@@ -11,7 +11,8 @@ Feature: My Feature File
     #When I complete action
     #Then I validate the outcomes
     #And check more outcomes
-    
+  
+  @Smoketest
   Scenario: Parameterization
     Given User launching web application
     When Using credentials "santhoshgrandhi9@gmail.com" and "123456789"
