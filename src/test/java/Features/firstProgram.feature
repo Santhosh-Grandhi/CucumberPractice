@@ -19,6 +19,7 @@ Feature: My Feature File
     Then Landing page is displayed
     And Application is interactable
     
+  @Smoketest @Regressiontest
   Scenario Outline:
     Given User launching web application
     When Using credentials <username> and "<password>"
