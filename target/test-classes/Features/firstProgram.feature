@@ -20,7 +20,7 @@ Feature: My Feature File
     
   Scenario Outline:
     Given User launching web application
-    When Using credentials "<username>" and "<password>"
+    When Using credentials <username> and "<password>"
     Then Landing page is displayed
     And Application is interactable
     
