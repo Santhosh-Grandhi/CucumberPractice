@@ -31,6 +31,18 @@ Feature: My Feature File
     | santhosh |   12345  |
     | Test     |   56789  |
     | Test2    |   45678  |
+    
+ #Data Driven
+ 
+ @MobileTesting
+ Scenario: Data Driven concept
+    Given User launching web application
+    When Using following data
+    |   user   |
+    | santhosh |
+    |   Test   |
+    Then Landing page is displayed
+    And Application is interactable
 
  
     

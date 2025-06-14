@@ -1,5 +1,7 @@
 package stepDefinitions;
 
+import java.util.List;
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -44,6 +46,13 @@ public class mainSteps {
 		@Then("Application is interactable")
 		public void application_is_interactable() {
 			System.out.println("application is working fine");
+		}
+		
+		@When("Using following data")
+		public void using_following_data(List<String> data) {
+		    System.out.println(data.get(0));
+		    System.out.println(data.get(1));
+		    System.out.println(data.get(2));
 		}
 
 	}
