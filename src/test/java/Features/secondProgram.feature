@@ -6,14 +6,14 @@ Feature: My Second Feature File
     Then Landing page is displayed
     And Application is interactable
     
-  @MobileTest
+  @MobileTest @FirstOne
   Scenario: Title of your scenario
     Given I want to write a step with precondition
     When I complete action
     Then I validate the outcomes
     And check more outcomes
   
-  @MobileTest 
+  @MobileTest @SecondOne
   Scenario: Reusable case
     Given I want to write a step with precondition
     When I complete action
